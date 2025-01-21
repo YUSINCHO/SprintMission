@@ -55,7 +55,7 @@ __충전하기__
 </p>
 
 > 아티스트 코드 엔티티는 아티스트의 카테고리를 세분화하기 위한 엔티티    
-> 아티스트 정보 엔티티와 1:N 관계
+> 아티스트 정보 엔티티와 1:M 관계
 
 #### 5. 크레딧 구매 이력(CREDIT_TRANSACTION) 엔티티
 
@@ -63,10 +63,14 @@ __충전하기__
   <img src='https://github.com/user-attachments/assets/d8edaab9-15ad-47c8-be49-ce67f42ea93f'/>
 </p>
 
-> 회원정보와 구매 이력 엔티티는 1:N 관계
+> 회원정보와 구매 이력 엔티티는 1:M 관계
 
 #### 6. 후원 정보(SUPPORT_INFO) 엔티티
 
 <p align='center'>
   <img src='https://github.com/user-attachments/assets/110d5ba5-d709-4088-b76e-67d4c5164f5a'/>
 </p>
+
+> 회원정보와 후원 정보 엔티티는 1:M 관계
+
+#### 
