@@ -28,5 +28,45 @@ __충전하기__
 
 ### 필요 엔티티 정의 및 선언
 
-회원 정보(USER_INFO) 엔티티
-1. 
+#### 1. 회원 정보(USER_INFO) 엔티티
+
+<p align='center'>
+  <img src='https://github.com/user-attachments/assets/72b59ea9-13bc-4634-b3f6-04da2e259a95'/>
+</p>
+
+#### 2. 아티스트 정보(ARITIST_INFO) 엔티티
+
+<p align='center'>
+  <img src='https://github.com/user-attachments/assets/5bc530bb-07d4-483d-90fa-51e400bda7f6'/>
+</p>
+
+#### 3. 팔로우(FOLLOW_INFO) 엔티티
+
+<p align='center'>
+  <img src='https://github.com/user-attachments/assets/4d3cbe0b-2dd8-4dd2-a02d-1b2cd841ede7'/>
+</p>
+
+> 팔로우 엔티티의 경우 회원정보와 아티스트 정보 엔티티 간 N:M 관계로 연결해주는 엔티티
+
+#### 4. 아티스트 코드(ARITIST_CODE) 엔티티
+
+<p align='center'>
+  <img src='https://github.com/user-attachments/assets/932e7757-1d71-4dfc-9f39-8678f01a2769'/>
+</p>
+
+> 아티스트 코드 엔티티는 아티스트의 카테고리를 세분화하기 위한 엔티티    
+> 아티스트 정보 엔티티와 1:N 관계
+
+#### 5. 크레딧 구매 이력(CREDIT_TRANSACTION) 엔티티
+
+<p align='center'>
+  <img src='https://github.com/user-attachments/assets/d8edaab9-15ad-47c8-be49-ce67f42ea93f'/>
+</p>
+
+> 회원정보와 구매 이력 엔티티는 1:N 관계
+
+#### 6. 후원 정보(SUPPORT_INFO) 엔티티
+
+<p align='center'>
+  <img src='https://github.com/user-attachments/assets/110d5ba5-d709-4088-b76e-67d4c5164f5a'/>
+</p>
